@@ -53,7 +53,7 @@
                     var counter = 0;
                     var rows = '';
                     if(data.status){
-                        console.log(data.id);
+                        // console.log(data.id);
                         $.each(data.pollingList, function(i, item){
                             $("#pollinglist").append("<option value='" + data.pollingList[i].polling_unit_id + "'>" + data.pollingList[i].polling_unit_id + "</option>");
                         });
